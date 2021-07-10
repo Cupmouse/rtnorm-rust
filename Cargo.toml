@@ -1,7 +1,13 @@
 [package]
 name = "rtnorm-rust"
 version = "0.1.0"
+license = "GPL-2.0"
+description = "Port of rtnorm"
+repository = "https://github.com/nozomushimaoka/rtnorm-rust/"
 edition = "2018"
+keywords = ["normal_distribution"]
+categories = ["math", "science", "statistics"]
+included = ["src/**/*", "Cargo.toml"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

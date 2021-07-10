@@ -121,6 +121,7 @@ fn rtexp(gen: &mut Rng, a: f64, b: f64) -> f64 {
 /// The Gaussian has parameters mu and sigma
 /// and is truncated on the interval \[a,b\].
 /// Returns the random variable x and its probability p(x).
+#[inline]
 pub fn rtnorm(gen: &mut Rng, mut a: f64, mut b: f64, mu: f64, sigma: f64) -> (f64, f64) {
     // Design variables
     const XMIN: f64 = -2.00443204036; // Left bound
